@@ -1,6 +1,6 @@
 <h1>Fiche de contact</h1>
 <img [src]="User.photo" [alt]="User.firstName" />
-<h3>Nom: {{ User.name | uppercase }}</h3>
+<h3 [ngStyle]="{ color: 'green' }">Nom: {{ User.name | uppercase }}</h3>
 <h3>Prénom: {{ User.firstName }}</h3>
 <h3 [hidden]="User.hide">Age: {{ User.age }}</h3>
 <p>{{ User.quote }}</p>
