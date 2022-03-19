@@ -8,12 +8,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
